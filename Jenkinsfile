@@ -20,7 +20,7 @@ pipeline {
                 stage('Deploy docker container'){
                         steps{
                                 sh 'sudo docker-compose down'
-                                sh 'sudo docker-compose up -d'
+                                sh 'sudo docker-compose -f docker-compose-jen.yml up -d'
                                 sh 'ls code -ls;pwd'
                         }
                 }
