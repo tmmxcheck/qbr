@@ -3,6 +3,7 @@ pipeline {
         stages{
                 stage('Initial setup'){
                         steps{
+				sh 'sudo docker-compose down'
                                 sh 'echo starting'
                         }
                 }
