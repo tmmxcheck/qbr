@@ -1,5 +1,4 @@
-<html>
-<head>
+d>
 <title>Prueba de Contenedor PHP 5.4</title>
 <style>
 body{
