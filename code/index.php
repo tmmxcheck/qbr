@@ -16,15 +16,24 @@ body{
 <?php
 $link = mysql_connect('mysql', 'root', 'TM1q2w3e.');
 if (!$link) {
-	echo "<center><h2>No se encuentra el servidor de base de datos</h2></center>";
+	echo "<center><h2>No se encuentra el servidor de pruebas de base de datos</h2></center>";
 }
 else
 {
-echo '<center><h2>Servidor de base de datos encontrado satisfactoriamente</h2></center>';
+echo '<center><h2>Servidor de base de datos encontrado satisfactoriamente prueba</h2></center>';
 }
 mysql_close($link);
 ?>
 
 
 </body>
-</html>
+
+
+	|
+			
+		
+
+
+
+
+
