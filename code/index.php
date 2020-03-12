@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Prueba de Contenedor PHP 5.4</title>
+<title>Prueba de Contenedor PHP 5.4 BIENVENIDOS A TODOS PRUEBAS</title>
 <style>
 body{
 	background-color:#434343;
@@ -9,7 +9,7 @@ body{
 </style>
 </head>
 <body>
-<center><h2>Version de PHP <?php echo phpversion(); ?></h2></center> 
+<center><h2>BIENVENIDO A TODOS <?php echo phpversion(); ?></h2></center> 
 <center><h2>Contenedor corriendo satisfactoriamente.</h2></center>
 
 
